@@ -1,0 +1,11 @@
+name: CustomBoss
+version: '${project.version}'
+main: com.savage.plugins.customboss.CustomBoss
+api-version: 1.19
+authors: [ SavageDev ]
+commands:
+  createboss:
+    description: Creates a custom boss based on command args
+    aliases: cboss
+    usage: /createboss [mob] [name] [health] [damage]
+
